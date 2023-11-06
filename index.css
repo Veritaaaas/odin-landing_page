@@ -9,15 +9,16 @@ html, body {
     margin-top: 0;
 }
 
-.header {
-    height: 30vh;
-    width: 100%;
-}
 
-.main {
-
-    height: 40vh;
+.banner {
+    background-image: url(images/book_header.png);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimony {
