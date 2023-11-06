@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -9,6 +11,19 @@ html, body {
     margin-top: 0;
 }
 
+.navbar {
+    background-color: #433a30;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important;
+}
 
 .banner {
     background-image: url(images/book_header.png);
@@ -21,12 +36,26 @@ html, body {
     align-items: center;
 }
 
-.testimony {
-    height: 20vh;
-    width: 100%;
+.title {
+    height: 40vh;
+    width: 1000px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 40px;
 }
 
-.footer {
-    height: 10vh;
-    width: 100%;
+.title h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    font-weight: bold;
+    color: #433a30;
+}
+
+.title p {
+    font-size: 30px;
+}
+
+.content {
+    
 }
