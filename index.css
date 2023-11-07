@@ -83,3 +83,60 @@ figcaption {
     color: #433a30 !important;
 }
 
+.footer {
+    background-color: rgba(69, 59, 48, 0.9);
+    color: white;   
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 40px; 
+    margin: 0;
+    text-align: center;
+}
+
+.author {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 40px;
+    text-align: end !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-end
+}
+
+.inquiry {
+    margin-top: 50px;
+    justify-content: center;
+    width: 900px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;  
+    color: #433a30 !important;
+    display: flex;
+}
+
+.inquiry{
+    font-size: 20px !important; 
+}
+
+.head {
+    font-size: 30px !important;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;  
+}
+
+.button {
+    margin-left: 20px;
+    padding-top: 40px;
+    height: 80px;
+    display: flex;
+}
+
+.btn {
+    background-color: #433a30 !important;
+    color: white;
+}
